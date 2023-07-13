@@ -1,1 +1,118 @@
-/* You CSS goes in here */
+/*Redeveloped
+Lab: Software Engineering
+Exp:Designing Test Suites
+File Name: main.css
+Author: Prakriti Dhang */
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 100px;
+   
+  }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#status1 {
+  border: 0px solid;
+}
+#status2 {
+  border: 0px solid;
+}
+#status3 {
+  border: 0px solid;
+}
+#status4 {
+  border: 0px solid;
+}
+#status5 {
+  border: 0px solid;
+}
+
+#optd1{
+  border: 0px solid;
+  background-color: transparent;
+}
+#optd2{
+  border: 0px solid;
+  background-color: transparent;
+}
+#optd3{
+  border: 0px solid;
+  background-color: transparent;
+}
+#optd4{
+  border: 0px solid;
+  background-color: transparent;
+}
+
+.table-hover  tr:hover th, .table-hover  tr:hover td {
+    background-color: #c8e4fffa;
+    
+}
+
+
+.table thead{
+    background-color: #1536a1fa;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+}
+
+
+
+.column-bordered-table td {
+  
+  border-right: 1px solid #1addff;
+}
+
+
+
+div.divscroll {
+   
+    height: 500px;
+    overflow-y: scroll;
+  }
+
+.card{
+    margin-bottom: 10px;
+    
+    
+}
+.card-body{
+   background-color: transparent;
+}
+
+
+
+
+  .list-group-item{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+  }
+
+ .bluec{
+ color: #026a7c;
+ font-weight: bold ;
+ }
+
+ #t3addbtn{
+  color:#bd04a4
+ }
+/*footer {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    padding-left: 1%;
+  
+   
+  }*/
