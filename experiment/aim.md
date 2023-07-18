@@ -1,6 +1,3 @@
-## Objectives
+## Aim of the Experiment
 
-**After completing this experiment you will be able to:**
-
-- Learn about different techniques of testing a software
-- Design unit test cases to verify the functionality and locate bugs, if any
+In this experiment we discuss in brief about different types of testing, and provide mechanisms to have hands-on experience on unit testing.
