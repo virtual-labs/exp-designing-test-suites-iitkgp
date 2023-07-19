@@ -1,0 +1,98 @@
+
+/home/runner/work/exp-designing-test-suites-iitkgp/exp-designing-test-suites-iitkgp/experiment/simulation/js/main.js
+    9:10  warning  'subex' is defined but never used             no-unused-vars
+   37:10  warning  'viewsolutionb' is defined but never used     no-unused-vars
+   48:10  warning  'solview' is defined but never used           no-unused-vars
+   59:10  warning  'chngfontsz' is defined but never used        no-unused-vars
+   66:10  warning  'addbtn1' is defined but never used           no-unused-vars
+   76:10  warning  'addbtn2' is defined but never used           no-unused-vars
+  144:10  warning  'removerowtr' is defined but never used       no-unused-vars
+  146:5   warning  '$' is not defined                            no-undef
+  156:10  warning  'addbtn3' is defined but never used           no-unused-vars
+  162:10  warning  'addbtn4' is defined but never used           no-unused-vars
+  167:10  warning  'exbtex1' is defined but never used           no-unused-vars
+  224:9   warning  'a' is already defined                        no-redeclare
+  234:9   warning  'a' is already defined                        no-redeclare
+  242:9   warning  'a' is already defined                        no-redeclare
+  251:9   warning  'a' is already defined                        no-redeclare
+  284:11  warning  'pass' is already defined                     no-redeclare
+  285:11  warning  'fail' is already defined                     no-redeclare
+  305:9   warning  'scripta' is already defined                  no-redeclare
+  305:9   warning  'scripta' is assigned a value but never used  no-unused-vars
+  307:9   warning  'ao' is already defined                       no-redeclare
+  313:11  warning  'pass' is already defined                     no-redeclare
+  314:11  warning  'fail' is already defined                     no-redeclare
+  326:11  warning  'pass' is already defined                     no-redeclare
+  327:11  warning  'fail' is already defined                     no-redeclare
+  383:11  warning  'pass' is already defined                     no-redeclare
+  384:11  warning  'fail' is already defined                     no-redeclare
+  399:11  warning  'pass' is already defined                     no-redeclare
+  400:11  warning  'fail' is already defined                     no-redeclare
+  401:11  warning  'statusb' is already defined                  no-redeclare
+  416:9   warning  'scriptb' is already defined                  no-redeclare
+  425:11  warning  'format' is already defined                   no-redeclare
+  430:13  warning  'ao2' is already defined                      no-redeclare
+  442:13  warning  'pass' is already defined                     no-redeclare
+  443:13  warning  'fail' is already defined                     no-redeclare
+  457:13  warning  'pass' is already defined                     no-redeclare
+  458:13  warning  'fail' is already defined                     no-redeclare
+  483:11  warning  'format' is already defined                   no-redeclare
+  505:13  warning  'pass' is already defined                     no-redeclare
+  506:13  warning  'fail' is already defined                     no-redeclare
+  518:13  warning  'pass' is already defined                     no-redeclare
+  519:13  warning  'fail' is already defined                     no-redeclare
+  537:9   warning  'scriptc' is already defined                  no-redeclare
+  544:11  warning  'format' is already defined                   no-redeclare
+  550:11  warning  'resultrect' is already defined               no-redeclare
+  551:11  warning  'stringArray' is already defined              no-redeclare
+  553:11  warning  'ao3' is already defined                      no-redeclare
+  566:13  warning  'pass' is already defined                     no-redeclare
+  567:13  warning  'fail' is already defined                     no-redeclare
+  578:13  warning  'pass' is already defined                     no-redeclare
+  579:13  warning  'fail' is already defined                     no-redeclare
+  606:11  warning  'format' is already defined                   no-redeclare
+  625:13  warning  'pass' is already defined                     no-redeclare
+  626:13  warning  'fail' is already defined                     no-redeclare
+  638:13  warning  'pass' is already defined                     no-redeclare
+  639:13  warning  'fail' is already defined                     no-redeclare
+  640:13  warning  'statusd' is already defined                  no-redeclare
+  656:9   warning  'scriptd' is already defined                  no-redeclare
+  664:11  warning  'format' is already defined                   no-redeclare
+  672:11  warning  'ao4' is already defined                      no-redeclare
+  683:13  warning  'pass' is already defined                     no-redeclare
+  684:13  warning  'fail' is already defined                     no-redeclare
+  696:13  warning  'pass' is already defined                     no-redeclare
+  697:13  warning  'fail' is already defined                     no-redeclare
+  724:11  warning  'format' is already defined                   no-redeclare
+  745:13  warning  'pass' is already defined                     no-redeclare
+  746:13  warning  'fail' is already defined                     no-redeclare
+  759:13  warning  'pass' is already defined                     no-redeclare
+  760:13  warning  'fail' is already defined                     no-redeclare
+  761:13  warning  'statuse' is already defined                  no-redeclare
+  775:9   warning  'scripte' is already defined                  no-redeclare
+  782:11  warning  'format' is already defined                   no-redeclare
+  788:11  warning  'resultrtri' is already defined               no-redeclare
+  789:11  warning  'stringArray5' is already defined             no-redeclare
+  794:11  warning  'ao5' is already defined                      no-redeclare
+  805:13  warning  'pass' is already defined                     no-redeclare
+  806:13  warning  'fail' is already defined                     no-redeclare
+  818:13  warning  'pass' is already defined                     no-redeclare
+  819:13  warning  'fail' is already defined                     no-redeclare
+  837:10  warning  'handleChange' is defined but never used      no-unused-vars
+  851:10  warning  'handleChange2' is defined but never used     no-unused-vars
+  865:10  warning  'handleChange3' is defined but never used     no-unused-vars
+  879:10  warning  'handleChange4' is defined but never used     no-unused-vars
+  893:10  warning  'handleChange5' is defined but never used     no-unused-vars
+
+/home/runner/work/exp-designing-test-suites-iitkgp/exp-designing-test-suites-iitkgp/experiment/simulation/js/simulation.js
+    7:10  warning  'playsimulation' is defined but never used  no-unused-vars
+   46:10  warning  'gonextp2' is defined but never used        no-unused-vars
+   89:10  warning  'gonextp3' is defined but never used        no-unused-vars
+  144:10  warning  'gonextp4' is defined but never used        no-unused-vars
+  184:10  warning  'gonextp5' is defined but never used        no-unused-vars
+  232:10  warning  'gonextp6' is defined but never used        no-unused-vars
+  263:10  warning  'gonextp7' is defined but never used        no-unused-vars
+  313:12  warning  'replaybtn' is defined but never used       no-unused-vars
+
+✖ 91 problems (0 errors, 91 warnings)
+
