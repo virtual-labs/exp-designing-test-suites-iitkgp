@@ -1,13 +1,316 @@
+<!--Redeveloped
+Lab: Software Engineering
+Exp: Designing Test Suites
+File Name: index.html
+Author: Prakriti Dhang -->
+
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Add CSS at the head of HTML file -->
     <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!--link rel="styleshee" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"-->
+    <link rel="stylesheet" href="./css/css/fontawesome.css">
+    <link rel="stylesheet" href="./css/css/all.min.css">
+    
+   
+
+
+
+
+
 </head>
 <body>
-		<!-- Your code goes here-->
+   <!--  <header id="header">
+        <div class="container p-3">
+          <div class="card">
+          <div class="row">
+            <div class="col-md-2">
+            <img src="images/vlabs-logo.png" class=" rounded img-fluid" alt="vlabs-logo" >
+          </div>
+          <div class="col-md-8 p-4">
+            <p class="h2 fw-bold text-primary text-center"> Virtual Lab IIT Kharagpur</p>
+          </div>
+          <div class="col-md-2">
+            <img src="images/iitkgp-logo.png" class=" rounded img-fluid" alt="iitkgplogo" >
+          </div>
+          </div>
+        </div>
+        </div>
+      </header>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+      <div class="container p-2">
+        <hr>
+        <p class="h3 fw-bold fst-italic text-center" style="color: #000283;"> Designing Test Suites</p>
+        <hr>
+    </div>
+ -->
+    <div class="container mt-2 p-4">
+		
+        <div class="d-flex flex-column justify-content-center mb-3 ">  
+            <div class="row">
+                <div class="col-md-4">
+                  
+                   <p class="fs-6" style="text-align: justify;"> Exhaustive testing of a software is required to determine it is working as per 
+                    expectations and requirements. Developers often do not have enough time (or at times interest) to test their codes
+                     thoroughly. To handle such scenarios, most projects usually have a dedicated testing team. However, unit testing, 
+                     at least, is done by the developers.</p>
+                     <p class="fs-6" style="text-align: justify;"> 
+                    Irrespective of who performs testing, or what is being tested, testing usually involve some generic steps. In this 
+                    simulation we provide a broad overview of the testing process.
+                   </p>
+                   
+                </div>
+               
+                <div class="col-md-8">
+                  
+                  <div class="p-2 border-start" >
+                    <div class="card-body">
+                    <!--div class="main"-->
+                    <div  class="card card-body border border-1 border-info" id="h1">
+                     
+                        <h5 id="head1" class="card-title fs-5 fst-italic fw-bold border border-3 border-primary rounded-3 p-2" style="text-align: center; background: linear-gradient(to bottom right, #ccffff 0%, #ffffff 99%);">Software Testing</h5>
+                      </div>     
+                      <div class="d-flex flex-column">
+                       
+                        <div class="card card-body border border-2 border-primary p-1  gap-3  ">
+                          
+                         
+                          <div class="d-grid gap-1 d-flex flex-row ">
+                            <p class="fs-5 fw-bold " style="text-align:left">Step</p>
+                            <button id="step0" type="button" class="btn border border-2 border-primary rounded-5 " style="display:block; background-color:#ccffff;" >
+                          <i class="fa-solid fa-square-1" >0</i></button>
+                          <button id="step1" type="button" class="btn border border-2 border-primary rounded-5" style="display:none; background-color:#ccffff;" >
+                            <i class="fa-solid fa-square-2" >1</i></button>
+                          <button id="step2" type="button" class="btn border border-2 border-primary rounded-5" style="display:none; background-color:#ccffff; ">
+                              <i class="fa-solid fa-square-3" >2</i></button>
+                          <button id="step3" type="button" class="btn border border-2 border-primary rounded-5" style="display:none; background-color:#ccffff; ">
+                                <i class="fa-solid fa-square-3" >3</i></button>
+                          <button id="step4" type="button" class="btn border border-2 border-primary rounded-5" style="display:none; background-color:#ccffff; ">
+                                  <i class="fa-solid fa-square-3" >4</i></button>
+                          <button id="step5" type="button" class="btn border border-2 border-primary rounded-5" style="display:none; background-color:#ccffff; ">
+                                    <i class="fa-solid fa-square-3" >5</i></button>
+                          <button id="step6" type="button" class="btn border border-2 border-primary rounded-5" style="display:none; background-color:#ccffff; ">
+                                      <i class="fa-solid fa-square-3" >6</i></button>
+                          
+                                </div>
+                        </div>
+
+                        <div id="p1" class=" card card-body border border-2 border-primary p-2" style="display:none;">
+                          <p class="fs-5" style="display:block;">A software undergoes various types of 
+                          testing right from the beginning of its design to delivery, and even beyound. Following general steps are involved in most of the types of software testing.</p>
+                        <ul class="fs-5 list-group-numbered">
+                          <li id="l1" class="list-group-item" style="display:none;">
+                           Create a test plan
+                          </li>
+                          <li id="l2" class="list-group-item" style="display:none;"> Create test suite</li>
+                          <li id="l3" class="list-group-item" style="display:none;"> Write test scripts</li>
+                          <li id="l4" class="list-group-item" style="display:none;"> Execute </li>
+                          <li id="l5" class="list-group-item" style="display:none;"> Fix bugs, if any</li>
+                          
+                          </ul>
+                          <div class="d-grid gap-2  d-md-flex justify-content-md-end p-2" >
+                          <button id="nextbtn1" type="button" class="btn btn-primary" onclick="gonextp2()" disabled style="display:block;" disabled>
+                            <i class="fas fa-chevron-right fa-lg"></i></button>
+                            </div>
+                        </div>
+
+                        <div id="p2" class=" card card-body border border-2 border-primary p-2 " style="display:none;">
+                          
+                          <p class="fs-5" style="display:block;">Test Plan documents what is to be tested, by whom, under which conditions. The IEEE 829
+                          Standards for Software Test Documentation suggests it to contain:</p>
+                          <ul class="fs-5">
+                            <li id="l21" style="display:none;">&#x2022; Introduction to the plan</li>
+                            <li id="l22" style="display:none;">&#x2022; Test items (for example, software modules)</li>
+                            <li id="l23" style="display:none;">&#x2022; Test environments and Prerequistes.</li>
+                            <li id="l24" style="display:none;">&#x2022; Roles and responsibilities</li>
+                            <li id="l25" style="display:none;">&#x2022; Necessary approvals</li>
+                            </ul>
+                           
+
+                          <div class="d-grid gap-2  d-md-flex justify-content-md-end p-2" >
+                          <!--button id="backbtn2" type="button" class="btn btn-primary" onclick="gobackp1()" style="display:block;">
+                            <i class="fas fa-chevron-left fa-lg"></i></button-->
+                            <button id="nextbtn2" type="button" class="btn btn-primary" onclick="gonextp3()" style="display:block;" disabled>
+                              <i class="fas fa-chevron-right fa-lg"></i></button>
+                              </div>
+                        </div>
+                        
+
+
+
+                        <div id="p3" class=" card card-body border border-2 border-primary p-2 " style="display:none;">
+                          
+                        
+                        
+  <div id="p31"  class="p-3" style="display:none;">
+   
+    
+
+  
+      <p id="p32" class="fs-5 card card-body border border-2 border-primary p-2 " style="display: none; "> 
+      Test suite is a collection of test cases. One might write a test suite to verify working of a use case, or may be to verify if it works with different web browswers.</p>
+      
+      <p id="p33" style="display: none; " class="fs-5 "> A suite consists of:</p>
+      <ul class="fs-5">
+        <li id="l31" style="display:none;">&#x2022; Title</li>
+        <li id="l32" style="display:none;">&#x2022; Description</li>
+        <li id="l33" style="display:none;">&#x2022; Set of test cases</li>
+       
+        </ul>
+    <div class="d-grid gap-2  d-md-flex justify-content-md-end p-2" >
+      <!--button id="backbtn3" type="button" class="btn btn-primary" onclick="gobackp2()" style="display:block;">
+        <i class="fas fa-chevron-left fa-lg"></i></button-->
+        <button id="nextbtn3" type="button" class="btn btn-primary" onclick="gonextp4()" style="display:block;" disabled>
+          <i class="fas fa-chevron-right fa-lg"></i></button>
+          </div>
+    
+  </div>
+
+  
+
+
+
+                        </div>
+
+
+
+                        <div id="p4" class="card card-body border border-2 border-primary" style="display: none;">
+                          
+                         <p id="p41" class="fs-5"> A test case could typically be documented with the following information:</p>
+                         
+                         <ul class="fs-5">
+                          <li id="l41" style="display:none;">&#x2022; Test case #</li>
+                          <li id="l42" style="display:none;">&#x2022; Summary</li>
+                          <li id="l43" style="display:none;">&#x2022; Dependency on previous test cases</li>
+                          <li id="l44" style="display:none;">&#x2022; Pre and Post conditions</li>
+                          <li id="l45" style="display:none;">&#x2022; Expected output</li>
+                          </ul>
+                          <div class="d-grid gap-2  d-md-flex justify-content-md-end p-2" >
+                            <!--button id="backbtn3" type="button" class="btn btn-primary" onclick="gobackp2()" style="display:block;">
+                              <i class="fas fa-chevron-left fa-lg"></i></button-->
+                              <button id="nextbtn4" type="button" class="btn btn-primary" onclick="gonextp5()" style="display:block;" disabled>
+                                <i class="fas fa-chevron-right fa-lg"></i></button>
+                                </div>
+                         </div>
+                        
+                         
+                         <div id="p5" class="card card-body border border-2 border-primary" style="display: none;">
+                          
+                          <p id="p51" class="fs-5"> Testing large project manually is difficult: </p>
+                          
+                          <ul class="fs-5">
+                           <li id="l51" style="display:none;">&#x2022; Automate testing with scripts</li>
+                           <li id="l52" style="display:none;">&#x2022; Testing frameworks: jUnit, qunit</li>
+                          
+                           </ul>
+                           <p id="p52" class="fs-5" style="display:none;"> Scripts contain the steps a human would have manually executed. Automating test cases help by:</p>
+                          
+                          <ul class="fs-5">
+                           <li id="l5a" style="display:none;">&#x2022; Reduced time and effort</li>
+                           <li id="l5b" style="display:none;">&#x2022; Reduced chance of  human error</li>
+                           <li id="l5c" style="display:none;">&#x2022; Faster feedback</li>
+                           </ul>
+                           <div class="d-grid gap-2  d-md-flex justify-content-md-end p-2" >
+                            <!--button id="backbtn3" type="button" class="btn btn-primary" onclick="gobackp2()" style="display:block;">
+                              <i class="fas fa-chevron-left fa-lg"></i></button-->
+                              <button id="nextbtn5" type="button" class="btn btn-primary" onclick="gonextp6()" style="display:block;" disabled>
+                                <i class="fas fa-chevron-right fa-lg"></i></button>
+                                </div>
+                          </div>
+                          
+                          <div id="p6" class="card card-body border border-2 border-primary" style="display: none;">
+                          
+                            <ul class="fs-5">
+                             <li id="l61" style="display:none;">&#x2022; Execute all the test cases by invoking relevant test scripts.</li>
+                             <li id="l62" style="display:none;">&#x2022; A test case finishes successfully if its actual output is same as the expected output</li>
+                             <li id="l63" style="display:none;">&#x2022; If all test cases finish successfully, the test suite is successful.</li>
+                             <li id="l64" style="display:none;">&#x2022; Otherwise bugs are reported</li>
+                             </ul>
+                             <div class="d-grid gap-2  d-md-flex justify-content-md-end p-2" >
+                              <!--button id="backbtn3" type="button" class="btn btn-primary" onclick="gobackp2()" style="display:block;">
+                                <i class="fas fa-chevron-left fa-lg"></i></button-->
+                                <button id="nextbtn6" type="button" class="btn btn-primary" onclick="gonextp7()" style="display:block;" disabled>
+                                  <i class="fas fa-chevron-right fa-lg"></i></button>
+                                  </div>
+                             
+                            </div>
+                            <div id="p7" class="card card-body border border-2 border-primary" style="display: none;">
+                          
+                            
+                            
+                              <ul class="fs-5">
+                               <li id="l71" style="display:none;">&#x2022; Developers act on the reported bugs, and fix them</li>
+                               <li id="l72" style="display:none;">&#x2022; Repeat step #4 again</li>
+                               <li id="l73" style="display:none;">&#x2022; If the reported bug is not encountered anymore, it is closed</li>
+                              
+                               </ul>
+                               <p id="p71" class="fs-5" style="display:none;">Steps #4 and #5 are repeated unitl there is no open bug</p>
+                               <div class="d-grid gap-2  d-md-flex justify-content-md-end p-2" >
+                                <!--button id="backbtn3" type="button" class="btn btn-primary" onclick="gobackp2()" style="display:block;">
+                                  <i class="fas fa-chevron-left fa-lg"></i></button-->
+                                  <button id="nextbtn7" type="button" class="btn btn-primary" onclick="gonextp8()" style="display:block;" disabled>
+                                    <i class="fas fa-chevron-right fa-lg"></i></button>
+                                    </div>
+                              </div>
+
+                              <!--div id="p8" class="card card-body border border-2 border-primary" style="display: block;">
+                                <span><i class="bi bi-pencil-square"></i></span>
+                                
+                                <span><i class="bi bi-arrow-right"></i></span>
+                            
+                               
+                                 
+                                </div-->
+                    
+                       
+                    <div class="d-grid gap-2 p-2 d-md-flex justify-content-md-center border border-1 border-info" style="background: linear-gradient(to bottom right, #ccffff 0%, #ffffff 99%);">
+                    
+                      <button id="replaybtn" type="button" class="btn btn-warning fs-5" onclick="replaybtn()" style="display:none;"> Replay 
+                        <i class="fas fa-redo"></i></button>
+                    
+                    <button id="playbtn" type="button" class="btn btn-info fs-5" onclick="playsimulation()" > Click to Play <i class="fas fa-play fa-sm "></i></button>
+                    <!--i class="fa-solid fa-play"></i-->
+                    
+                  </div>
+                </div>
+
+
+
+
+
+
+
+              </div>
+                </div>
+            </div>
+            <hr>
+            
+            <!--a class="btn btn-success fs-4" target="_self" href="./test_suit.html" role="button" >Click Here to Go to Exercise Page</a-->
+           
+        </div>
+            </div>
+
+            <!-- <div class="container p-1">
+              <hr>
+            <footer class="text-white text-center ">
+                <div class="text-center text-primary fs-5 "  >
+                  Copyright © 2023  IIT Kharagpur,
+                  <a class="text-primary fs-5" href="http://vlabs.iitkgp.ac.in/">Virtual Lab</a>
+                </div>
+                </footer>
+                <hr>
+                </div> -->
+
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/simulation.js"></script>
 </body>
 </html>
